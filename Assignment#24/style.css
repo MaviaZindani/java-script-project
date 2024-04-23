@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff6b6b, #3b5998, #38ada9, #8e44ad);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  .stopwatch {
+    text-align: center;
+  }
+  
+  .display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .controls button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+  }
+  
+  .display.active {
+    animation: blink 1s linear infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
