@@ -1,0 +1,132 @@
+/* Additions and modifications to existing styles */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    max-width: 90%;
+}
+
+h1 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+#taskInput {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #138496;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-text {
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.task-actions {
+    display: flex;
+    align-items: center;
+}
+
+.edit-btn,
+.delete-btn {
+    background-color:rgb(207, 207, 207);
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: #e9ecef;
+}
+
+.edit-btn img,
+.delete-btn img {
+    width: 20px;
+    height: auto;
+}
+
+.delete-btn {
+    color: #dc3545;
+}
+
+.delete-btn:hover {
+    color: #c82333;
+}
+
+.edit-btn {
+    color: #ffc107;
+}
+
+.edit-btn:hover {
+    color: #e0a800;
+}
+
+
+
+
