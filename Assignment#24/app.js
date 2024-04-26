@@ -35,28 +35,3 @@ function updateDisplay() {
 function formatTime(time) {
   return time < 10 ? '0' + time : time;
 }
-
-
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optionalnpm ins
-  const firebaseConfig = {
-    apiKey: "AIzaSyBze8LQOSW-kdipZeqq_THB4BucuOBOv0c",
-    authDomain: "stopwatchi.firebaseapp.com",
-    projectId: "stopwatchi",
-    storageBucket: "stopwatchi.appspot.com",
-    messagingSenderId: "909596657765",
-    appId: "1:909596657765:web:2502a945f11e1414ec9e8c",
-    measurementId: "G-RT5Z4ZLZLE"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
