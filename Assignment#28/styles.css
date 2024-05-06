@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.container {
+    text-align: center;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white; /* Background color for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    transition: background-color 0.3s ease; /
+}
+
+.container:hover {
+    background-color: #e0e0e0; /* Background color change on hover */
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#ques {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: inline-block;
+    text-align: left;
+}
+
+.options input[type="radio"] {
+    display: none;
+}
+
+.option-label {
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.option-label:hover {
+    background-color: #f0f0f0;
+}
+
+#btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#btn:hover {
+    background-color: #45a049;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.option-selected {
+        background-color: #66bb6a; /* Change to your desired color */
+        color: white;
+}
+
+
